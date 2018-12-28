@@ -13,7 +13,7 @@ collections:
     create: true
     fields:
       -  {label: "Name of Case/Client", name: "title", widget: "string"}
-      -  {label: "Description / Lead Copy", name: "desciption", widget: "text"}
+      -  {label: "Description/Lead Copy", name: "description", widget: "text"}
 
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
