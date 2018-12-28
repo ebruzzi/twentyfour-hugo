@@ -9,8 +9,8 @@ tags:
 keywords:
   - what is seo
 autoThumbnailImage: true
-thumbnailImage: /src/img/gallery/buenos-aies-trip-palazzo-barolo.jpg
-coverImage: /src/img/gallery/buenos-aies-trip-palazzo-barolo.jpg
+thumbnailImage: ''
+coverImage: ''
 ---
 # This is dummy copy. 
 
