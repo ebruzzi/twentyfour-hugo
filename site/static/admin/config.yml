@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: ebruzzi/twentyfour-hugo
+  branch: master
+
+media_folder: "src/img/gallery"
+
+collections:
+  - name: photography
+    label: "Photography Case/Client" # Used in the UI, ie: "New Post"
+    folder: "site/content/photography"
+    create: true
+    fields:
+      -  {label: "Name of Case/Client", name: "title", widget: "string"}
+      -  {label: "Description / Lead Copy", name: "desciption", widget: "text"}
