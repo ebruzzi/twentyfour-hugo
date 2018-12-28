@@ -4,6 +4,7 @@ backend:
   branch: master
 
 media_folder: "src/img/gallery"
+publish_mode: editorial_workflow
 
 collections:
   - name: photography
