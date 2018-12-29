@@ -3,6 +3,13 @@ backend:
   repo: ebruzzi/twentyfour-hugo
   branch: master
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: twentyfour-cc
+    api_key: 364878424942339
+
+
 media_folder: "src/img/gallery"
 publish_mode: editorial_workflow
 
