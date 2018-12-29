@@ -1,0 +1,29 @@
+{{ partial "header" . }}
+
+<div class="content container {{ .Title }} {{ .Section | urlize }}">
+  <h1>{{ .Section }}</h1>
+  {{ if eq .Section "photography" }}
+      <section>
+              <ul>
+              {{ range .Pages }}
+                <li>
+                  <p><strong>{{ .Title }}:</strong> {{ .Params.description }}</p>
+                </li>
+              {{ end }}
+              </ul>
+      </section>
+
+  {{ else if eq .Section "posts" }}
+        <section>
+              <ul>
+              {{ range .Pages }}
+                <li>
+                  <p><strong>{{ .Title }}:</strong> {{ .Params.body }}</p>
+                </li>
+              {{ end }}
+              </ul>
+      </section>
+  {{ end }}
+</div>
+
+{{ partial "footer" . }}
